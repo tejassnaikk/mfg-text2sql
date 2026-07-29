@@ -126,4 +126,4 @@ src/
 EXPERIMENT.md              pre-registered protocol (committed before training)
 ```
 
-Key commits: pre-registration `895b33f`, three-way split `3bbb23d`, Experiment 2 pre-registration `178e64c`, coverage-expanded dataset `e6f384c`.
+The pre-registered protocol — the selection rule and every metric, fixed before any training run — is in `EXPERIMENT.md`. The development repository was reset to a clean single-commit history before publishing (regenerable adapter checkpoints and generated datasets are not tracked; see `.gitignore`), so the original per-experiment commit timestamps live in the local development history rather than here.
