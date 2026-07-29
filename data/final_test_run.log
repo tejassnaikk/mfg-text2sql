@@ -1,0 +1,31 @@
+final test: 693 rows / 8 templates (iter 100)
+loading selected checkpoint ...
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 3919.50it/s]
+  100/693
+  200/693
+  300/693
+  400/693
+  500/693
+  600/693
+
+--- per-template (test) ---
+template                           tier    n   exec%  exact%
+t1_products_in_category               1   80    0.0%    0.0%
+t1_slowest_products                   1   55    0.0%    0.0%
+t2_inspections_by_inspector           2  193   44.6%   42.5%
+t2_machines_on_line                   2   95    0.0%    0.0%
+t3_defect_qty_by_category_name        3  101    9.9%    0.0%
+t3_unplanned_reasons                  3   74    0.0%    0.0%
+t4_longest_downtime_event             4   70    0.0%    0.0%
+t4_machines_without_recent_maintenance    4   25    0.0%    0.0%
+
+--- per-tier (exploratory) ---
+  tier 1:   0.0%  (n=135)
+  tier 2:  29.9%  (n=288)
+  tier 3:   5.7%  (n=175)
+  tier 4:   0.0%  (n=95)
+
+===== FINAL TEST RESULT (iter 100) =====
+  macro-average execution-match : 6.8%   <-- primary
+  row-level execution-match     : 13.9%
+  row-level exact-match         : 11.8%

@@ -1,0 +1,20 @@
+validation sample: 100 rows across 4 templates (25/template)
+
+ iter   train  val_loss  val_macro_exec
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 17541.23it/s]
+   50   0.072     0.108           24.0%
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 8500.05it/s]
+  100   0.051     0.118           34.0%
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 7531.67it/s]
+  150   0.046     0.091            5.0%
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 37044.88it/s]
+  200   0.039     0.086           23.0%
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 9434.83it/s]
+  250   0.040     0.113           23.0%
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 7407.52it/s]
+  300   0.038     0.077           24.0%
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 4747.07it/s]
+  350   0.035     0.068           30.0%
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 17822.82it/s]
+  400   0.041     0.080           24.0%
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 9109.25it/s]

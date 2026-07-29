@@ -1,0 +1,51 @@
+test rows: 693   unique gold queries: 60
+
+loading BASE ...
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 9989.08it/s]
+  [base] 50/693  157s  eta 2015s
+  [base] 100/693  360s  eta 2137s
+  [base] 150/693  563s  eta 2036s
+  [base] 200/693  745s  eta 1837s
+  [base] 250/693  1003s  eta 1777s
+  [base] 300/693  1216s  eta 1593s
+  [base] 350/693  1401s  eta 1373s
+  [base] 400/693  1609s  eta 1179s
+  [base] 450/693  1825s  eta 985s
+  [base] 500/693  2023s  eta 781s
+  [base] 550/693  2191s  eta 570s
+  [base] 600/693  2431s  eta 377s
+  [base] 650/693  2625s  eta 174s
+
+loading FINE-TUNED (adapter 0000050) ...
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 10935.32it/s]
+  [finetuned] 50/693  192s  eta 2465s
+  [finetuned] 100/693  426s  eta 2524s
+  [finetuned] 150/693  689s  eta 2493s
+  [finetuned] 200/693  897s  eta 2212s
+  [finetuned] 250/693  1160s  eta 2056s
+  [finetuned] 300/693  1396s  eta 1828s
+  [finetuned] 350/693  1636s  eta 1604s
+  [finetuned] 400/693  1872s  eta 1371s
+  [finetuned] 450/693  2142s  eta 1157s
+  [finetuned] 500/693  2394s  eta 924s
+  [finetuned] 550/693  2657s  eta 691s
+  [finetuned] 600/693  2971s  eta 460s
+  [finetuned] 650/693  39583s  eta 2619s
+
+===== BASE (one-shot) =====
+tier      n   match    exec    json
+1       135    3.0%   80.7%   96.3%
+2       288   50.7%   94.8%   98.6%
+3       175    2.3%   41.7%   88.0%
+4        95    0.0%   25.3%   88.4%
+ALL     693   22.2%   69.1%   94.1%
+
+===== FINE-TUNED =====
+tier      n   match    exec    json
+1       135    0.0%   80.0%   92.6%
+2       288   19.4%   47.6%   96.5%
+3       175    4.0%   27.4%   93.1%
+4        95    0.0%   24.2%   84.2%
+ALL     693    9.1%   45.6%   93.2%
+
+>>> result-set accuracy:  base 22.2%  ->  fine-tuned 9.1%   (+-13.1 pts)

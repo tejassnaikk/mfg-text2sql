@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+data/db/*.db
+data/db/*.db-wal
+data/db/*.db-shm
+models/
+.DS_Store
+.env
+
+adapters/
+adapters_sweep/
+adapters_sweep_exp1/
+data/mlx/
+data/*.jsonl
+hf-cache/
