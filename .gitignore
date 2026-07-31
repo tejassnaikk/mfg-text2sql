@@ -14,3 +14,7 @@ adapters_sweep_exp1/
 data/mlx/
 data/*.jsonl
 hf-cache/
+demo/model/
+demo/data/mfg.db
+demo/
+fused_model/
